@@ -4,7 +4,7 @@ import { toast } from 'react-hot-toast';
 import { Navigate, useLocation, useNavigate, useParams } from 'react-router-dom';
 import ACTIONS from '../Actions';
 import Client from '../components/Client';
-import Editor from '../components/Editor';
+import Editor from '../components/Editor'; 
 
 function EditorPage() {
     const socketRef = useRef(null);
