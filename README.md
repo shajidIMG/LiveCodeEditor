@@ -1,3 +1,3 @@
 ### Demo
 
-https://code-sync.codersgyan.com/
+https://live-code-editor-flame.vercel.app/
