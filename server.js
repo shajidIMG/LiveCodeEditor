@@ -17,7 +17,7 @@ const io = new Server(server)
 const userSocketMap = {}
 
 app.get("/",(req,res)=>{
-  res.send("hello world 1");
+  res.send("hello world 2");
   res.end();
 })
 
