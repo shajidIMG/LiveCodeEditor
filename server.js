@@ -17,7 +17,7 @@ const io = new Server(server)
 const userSocketMap = {}
 
 app.get("/",(req,res)=>{
-  res.send("hello world this a from docker cicd-done shajid",Math.random());
+  res.send(`hello world this a from docker cicd-done shajid ${Math.random()}`);
   res.end();
 })
 
